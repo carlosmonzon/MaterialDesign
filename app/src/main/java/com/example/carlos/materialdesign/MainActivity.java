@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public void nextScreen(View view){
-        startActivity(new Intent(this,ToolbarActivity.class));
+    public void nextScreen(View view) {
+        startActivity(new Intent(this, ToolbarActivity.class));
     }
 
     @Override
