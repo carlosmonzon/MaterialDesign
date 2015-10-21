@@ -2,7 +2,7 @@
 
 
     <!-- inherit from the material theme -->
-    <style name="AppTheme" parent="@style/Theme.AppCompat">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <!-- Main theme colors -->
         <!--   your app branding color for the app bar -->
         <item name="colorPrimary">@color/primary</item>
@@ -10,6 +10,7 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <!--   theme UI controls like checkboxes and text fields -->
         <item name="colorAccent">@color/accent</item>
+
     </style>
 
 
@@ -22,8 +23,8 @@
     </style>
 
 
-    <!--<style name="MyDarkToolbarStyle" parent="ThemeOverlay.AppCompat.Dark">-->
-        <!--<item name="android:colorBackground">@color/primary_dark</item>-->
-    <!--</style>-->
+    <style name="MyDarkToolbarStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/primary_dark</item>
+    </style>
 
 </resources>
