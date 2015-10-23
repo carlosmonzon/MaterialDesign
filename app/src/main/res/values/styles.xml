@@ -2,7 +2,7 @@
 
 
     <!-- inherit from the material theme -->
-    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <!-- Main theme colors -->
         <!--   your app branding color for the app bar -->
         <item name="colorPrimary">@color/primary</item>
@@ -25,6 +25,10 @@
 
     <style name="MyDarkToolbarStyle" parent="ThemeOverlay.AppCompat.Dark">
         <item name="android:colorBackground">@color/primary_dark</item>
+    </style>
+
+    <style name="BorderLessButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/primary_light</item>
     </style>
 
 </resources>
