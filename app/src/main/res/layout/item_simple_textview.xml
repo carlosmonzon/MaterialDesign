@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tool="http://schemas.android.com/tools"
+          android:id="@+id/simple_text"
+          style="@style/TextAppearance.AppCompat.Body1"
+          android:padding="16dp"
+          tool:text="Simple Text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+</TextView>
