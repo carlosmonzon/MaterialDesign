@@ -6,4 +6,5 @@
     <string name="action_done">Done</string>
     <string name="title_activity_toolbar">ToolbarActivity</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_card_view_activty">CardViewActivty</string>
 </resources>
