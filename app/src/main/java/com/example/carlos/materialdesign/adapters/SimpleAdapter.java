@@ -1,12 +1,12 @@
 package com.example.carlos.materialdesign.adapters;
 
-import com.example.carlos.materialdesign.R;
-
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.carlos.materialdesign.R;
 
 import java.util.ArrayList;
 
@@ -26,6 +26,12 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleView
 
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_simple_textview, parent, false);
+        v.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
         SimpleViewHolder pvh = new SimpleViewHolder(v);
 
         return pvh;

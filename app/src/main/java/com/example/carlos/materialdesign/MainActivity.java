@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, CardViewActivity.class));
     }
 
+    public void goToListActivity(View view) {
+        startActivity(new Intent(this, ListActivity.class));
+    }
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

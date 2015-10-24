@@ -11,27 +11,41 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        card_view:cardCornerRadius="4dp"
+        card_view:cardCornerRadius="8dp"
         card_view:cardElevation="6dp"
         card_view:cardPreventCornerOverlap="false"
         card_view:cardUseCompatPadding="true">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <!--<ImageView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:scaleType="centerCrop"-->
-        <!--android:src="@drawable/peru_img" />-->
 
-        <TextView
+            <include layout="@layout/toolbar" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/peru_img" />-->
+
+            <Button
+                style="@style/BorderLessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BorderLess Button" />
+
+            <TextView
             style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start|bottom"
             android:layout_margin="4dp"
             android:text="Machu Picchu"
-            android:textColor="@android:color/white" />
+                android:textColor="@color/primary_text" />
 
+        </LinearLayout>
 
     </android.support.v7.widget.CardView>
 

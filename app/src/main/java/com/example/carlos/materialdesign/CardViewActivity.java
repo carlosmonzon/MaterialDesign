@@ -2,6 +2,7 @@ package com.example.carlos.materialdesign;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -11,6 +12,14 @@ public class CardViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item_card);
+        Toolbar cardViewToolbar = (Toolbar) findViewById(R.id.TbCard);
+        cardViewToolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                return false;
+            }
+        });
+        cardViewToolbar.inflateMenu(R.menu.menu_toolbar);
     }
 
     @Override
