@@ -47,6 +47,10 @@ public class NavigationActivity extends AppCompatActivity {
                 //Check to see which item was being clicked and perform appropriate action
                 switch (menuItem.getItemId()) {
 
+                    case R.id.navigation_item_1:
+                        Toast.makeText(getApplicationContext(), "Action 1", Toast.LENGTH_SHORT).show();
+                        return true;
+
                     default:
                         Toast.makeText(getApplicationContext(), "Somethings Wrong", Toast.LENGTH_SHORT).show();
                         return true;
