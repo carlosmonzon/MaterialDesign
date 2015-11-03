@@ -4,6 +4,8 @@ Material Design Android project to start working with AppCompat theme.
 - Theme customization
 - Toolbar and menu
 - Toolbar customization
+- Cardviews and RecyclerView
+- Android Design library : SnackBar, NavigationView, FAB, CoordinatorLayout, TabLayout and AppBarLayout
 
 ## Sources
 
