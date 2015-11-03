@@ -10,26 +10,32 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity
             android:name=".ToolbarActivity"
             android:label="@string/title_activity_toolbar"
-            android:theme="@style/AppTheme.NoActionbar"></activity>
+            android:theme="@style/AppTheme.NoActionbar" />
         <activity
             android:name=".ListActivity"
             android:label="@string/title_activity_list" />
         <activity
             android:name=".CardViewActivity"
-            android:label="@string/title_activity_card_view_activty"></activity>
+            android:label="@string/title_activity_card_view_activty" />
         <activity
             android:name=".NavigationActivity"
             android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionbar"></activity>
+        <activity
+            android:name=".CoordinatorActivity"
+            android:label="@string/title_activity_coordinator"
             android:theme="@style/AppTheme.NoActionbar">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>
